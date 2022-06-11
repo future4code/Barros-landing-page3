@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgLogo {
+    height: 4vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px #ff5c5c;
+    box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
+    margin-bottom: 3vw;
+    flex-wrap: wrap;
+}
+
+a {
+    padding: 2vw;
+    font-size: 1.5vw;
+    font-family: Arial;
+    text-decoration: none;
+    color: #ff5c5c;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e99292;
+    text-decoration: double;
+}
+
+#quero-o-meu {
+    color: white;
+    background-color: #ff5c5c;    
+    font-family: 'Arial';
+    font-size: 1.5vw;
+    
+}
+
+#quero-o-meu:hover {
+    background-color: #e99292;
+}
+/* Giovana*/
+
+button {
+    background-color: #ff5c5c;
+    color: white;
+    height: 3vw;
+    width: 12vw;
+    border-radius: 1vw;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #e99292;
+}
+.banner{
+    height: 30vw;
+}
+
+.texto {
+    align-self: center;
+    font-size: x-large;
+    font-family: arial;
+    font-weight: bolder;
+    padding: 2vw;
+    color: #ff5c5c;
+}
+
+.divProdutos {
+    display: flex;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+
+}
+
+.preco {
+    margin: 2vw;
+    border-bottom: solid #ff5c5c 1vw;
+    border-top: solid #ff5c5c 1vw;
+    text-align: center;
+    padding: 2vw;
+
+
+}
+
+h3Main {
+    margin-right: 20px;
+
+}
+
+table {
+    width: 1000px;
+    justify-items: flex-end;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    color: #ff5c5c;
+}
+
+/*Byron*/
+
+.footer-v1 {
+    border-top: #ddd solid 1px;
+    margin-top: 10vw;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ff5c5c;
+    box-shadow: #ddd;
+}
+
+.col-1 .lista-footer,
+.col-2 .lista-footer,
+.col-3 .lista-footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vw;
+}
+
+.lista-foote-link {
+    color: black;
+}
+
+.container-redes-social {
+    display: block;
+    text-align: center;
+}
+
+.social-icon-small {
+    width: 2vw;
+    height: 2vw;
+    padding: 5px;
+}
+
+.social-icons-small {
+    max-width: 100%;
+    display: inline-flexbox;
+}
+
+.w-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone-app {
+    text-align: center;
+}
+
+.texto-icones {
+    font-size: 11px;
+    line-height: 18px;
+    color: #a9b0be;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-flexbox;
+}
