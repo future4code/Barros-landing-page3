@@ -134,6 +134,10 @@ textarea{
     row-gap: 5vw;
 }
 
+.h3-lista {
+    margin-left:2vw;
+
+}
 .lista-foote-link {
     color: black;
 }
