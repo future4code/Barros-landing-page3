@@ -99,12 +99,12 @@ nav {
 .secao-produtos>div>h2 {
     padding-top: 2vw;
     font-size: 4vw;
-    ;
 }
 
 .titulo-produto {
     height: 100%;
     background-image: linear-gradient(to bottom, #ff5c5c, #e99292);
+    padding-bottom: 10px;
 }
 
 .anuncio-produtos {
@@ -294,10 +294,112 @@ main {
     display: inline-flexbox;
 }
 
+#btn-mobile {
+    display: none;
+}
+
 
 /*revisponsividade*/
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media screen and (max-width: 600px) {
+    .anuncio>h1 {
+        font-size: 20px;
+    }
+    .anuncio>p {
+        font-size: 10px;
+    }
+    .secao-produtos>div>h2 {
+        font-size: 20px;
+    }
+    .secao-produtos>div>p {
+        font-size: 10px;
+    }
+    .porque-4cars>h2 {
+        font-size: 20px;
+    }
+    #quero-o-meu {
+        display: none;
+    }
+    #menu {
+        display: none;
+    }
+    .imgLogo {
+        height: 8vw;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 45px;
+        right: 0px;
+        background-image: linear-gradient(to bottom, #ff5c5c, #f9d7d7);
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #menu:hover {
+        color: #969393;
+    }
+    #nav.active #menu {
+        height: 250px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        color: black;
+        font-size: 10px;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #botao {
+        display: flex;
+        align-items: center;
+    }
+    #btn-mobile {
+        display: block;
+    }
+    #btn-mobile {
+        position: absolute;
+        z-index: 1001;
+        top: 3px;
+        right: 13%;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: transparent;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    /*fim*/
     .porque-frases {
         margin-left: 50px;
     }
