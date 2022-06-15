@@ -7,18 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4CARS</title>
     <link rel="stylesheet" href="style/styleHome.css">
+
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
 
-        <nav class="menu">
+        <nav id="nav">
             <div>
                 <a href="index.html"> <img class="imgLogo" src="img/logo-nav.png" alt="Ícone 4CARS"> </a>
             </div>
 
-            <div>
+            <div id="menu">
                 <a href="index.html" id="a">Home</a>
                 <a href="produtos.html" id="a">Planos</a>
                 <a href="sobre.html" id="a">Sobre</a>
@@ -26,9 +27,13 @@
                 <a href="contato.html" id="a">Contato</a>
             </div>
 
-            <div>
-                <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
+            <div id="botao">
+                <button id="btn-mobile">Menu</button>
+                <span id="hamburger"></span>
+
             </div>
+
+            <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
         </nav>
 
     </header>
@@ -54,7 +59,7 @@
                     </a>
                 </div>
                 <div class="baner-produtos">
-                    <img src="img/baner-lux.png" alt="">
+                    <img src="img/baner-lux.png" alt="Plano Lux">
                     <a href="produtos.html">
                         <button>Contratar Agora</button>
                     </a>
@@ -144,8 +149,7 @@
     </footer>
 
 
-
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
