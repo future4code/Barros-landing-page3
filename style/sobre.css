@@ -1,10 +1,10 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     text-decoration: none;
 }
 
-/* HEADER/NAV */
+/*HEADER*/
 
 .imgLogo {
     height: 4vw;
@@ -16,12 +16,12 @@ nav {
     justify-content: space-around;
     border-bottom: 3px #ff5c5c;
     box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
-    margin-bottom: 5vw;
+    margin-bottom: 2.6vw;
     flex-wrap: wrap;
 }
 
 #a {
-    padding: 1vw;
+    padding: 20px;
     font-size: 1vw;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -35,7 +35,7 @@ nav {
 
 #quero-o-meu {
     color: white;
-    background-color: #ff5c5c;    
+    background-color: #ff5c5c;
     font-family: 'Arial';
     font-size: 1vw;
     padding: 1vw;
@@ -44,12 +44,6 @@ nav {
 #quero-o-meu:hover {
     background-color: #e99292;
 }
-
-#btn-mobile {
-    display: none;
-}
-
-/* HEADER/NAV */
 
 
 /* BODY */
@@ -410,17 +404,17 @@ main {
 
 
 /* FOOTER */
+/*Footer*/
 
 .footer-v1 {
-    border-top: #ddd solid 1px;
-    margin-top: 10vw;
+    box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
 }
 
 .colunas {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     color: #ff5c5c;
     box-shadow: #ddd;
 }
@@ -431,6 +425,9 @@ main {
     display: flex;
     flex-direction: column;
     row-gap: 5vw;
+    flex-wrap: wrap;
+    min-width: 10px;
+    min-height: 10px;
 }
 
 .lista-foote-link {
@@ -440,11 +437,38 @@ main {
 .container-redes-social {
     display: block;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.social-link-small {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3px;
+    padding: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #22252c;
+    border-radius: 8em;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+}
+
+.logo-footer>img {
+    width: 13em;
+    margin: 10px 10px;
 }
 
 .social-icon-small {
-    width: 2vw;
-    height: 2vw;
+    width: 20px;
+    height: 20px;
     padding: 5px;
 }
 
@@ -456,6 +480,7 @@ main {
 .w-row {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
 }
 
 .icone-app {
@@ -475,4 +500,7 @@ main {
     display: inline-flexbox;
 }
 
-/* FOOTER */
+/*esconder o botão menu*/
+#btn-mobile {
+    display: none;
+}
