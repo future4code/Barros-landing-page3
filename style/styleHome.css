@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/*header*/
+
+.imgLogo {
+    height: 4vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px #ff5c5c;
+    box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
+    margin-bottom: 2.6vw;
+    flex-wrap: wrap;
+}
+
+#a {
+    padding: 20px;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ff5c5c;
+    font-weight: bold;
+}
+
+#a:hover {
+    color: #e99292;
+}
+
+#quero-o-meu {
+    color: white;
+    background-color: #ff5c5c;
+    font-family: 'Arial';
+    font-size: 1vw;
+    padding: 1vw;
+}
+
+#quero-o-meu:hover {
+    background-color: #e99292;
+}
+
+
+/*main*/
+
+.img-anuncio {
+    background: url(../img/baner-home.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.anuncio {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    padding-top: 5vw;
+    padding-bottom: 15vw;
+    padding-left: 40px;
+}
+
+.anuncio>h1 {
+    margin-top: 60px;
+    font-size: 4vw;
+}
+
+.anuncio>p {
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    margin-left: 7%;
+    font-size: 2vw;
+    background: rgba(242, 248, 246, 0.352);
+}
+
+
+/*baner produtos*/
+
+.anuncio-produtos {
+    text-align: center;
+    background: url(../img/baner-produto.webp) no-repeat;
+    background-size: cover;
+    background-position: 0px 0px 0px 0px;
+    min-width: 10vw;
+    max-width: 100vw;
+    min-height: 50vw;
+}
+
+.secao-produtos {
+    text-align: center;
+}
+
+.secao-produtos>div>h2 {
+    padding-top: 2vw;
+    font-size: 4vw;
+}
+
+.titulo-produto {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ff5c5c, #e99292);
+    padding-bottom: 10px;
+}
+
+.anuncio-produtos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.baner-produtos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    box-shadow: 5px 10px 5px 5px rgb(0 0 0 / 5%);
+}
+
+.baner-produtos>button:hover {
+    background-color: #e99292;
+}
+
+.baner-produtos>a {
+    position: static;
+    z-index: 0;
+    margin-top: -80px;
+}
+
+.baner-produtos>a>button {
+    position: static;
+    z-index: 0;
+    text-align: center;
+    background-color: #ff5c5c;
+    color: white;
+    border: 0;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    min-width: 5vw;
+    min-height: 5vw;
+    cursor: pointer;
+}
+
+.baner-produtos>img {
+    max-width: 300px;
+    min-height: 20vw;
+}
+
+
+/*baner porque*/
+
+.porque-4cars {
+    background-image: linear-gradient(to bottom, #ff5c5c, #f9d7d7);
+}
+
+.porque-4cars>h2 {
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 4vw;
+    ;
+}
+
+.porque-anuncio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.porque-frases>h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.porque-frases>p {
+    margin: 20px;
+    max-width: 70%;
+}
+
+.porque-imagem {
+    width: 40%;
+}
+
+.porque-imagem>img {
+    width: 100%;
+}
+
+main {
+    margin-bottom: 5px;
+}
+
+
+/*Footer*/
+
+.footer-v1 {
+    box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #ff5c5c;
+    box-shadow: #ddd;
+}
+
+.col-1 .lista-footer,
+.col-2 .lista-footer,
+.col-3 .lista-footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vw;
+    flex-wrap: wrap;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.lista-foote-link {
+    color: black;
+}
+
+.container-redes-social {
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.social-link-small {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3px;
+    padding: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #22252c;
+    border-radius: 8em;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+}
+
+.logo-footer>img {
+    width: 13em;
+    margin: 10px 10px;
+}
+
+.social-icon-small {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.social-icons-small {
+    max-width: 100%;
+    display: inline-flexbox;
+}
+
+.w-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.icone-app {
+    text-align: center;
+}
+
+.texto-icones {
+    font-size: 11px;
+    line-height: 18px;
+    color: #a9b0be;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-flexbox;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+
+/*revisponsividade*/
+
+@media screen and (max-width: 600px) {
+    .anuncio>h1 {
+        font-size: 20px;
+    }
+    .anuncio>p {
+        font-size: 10px;
+    }
+    .secao-produtos>div>h2 {
+        font-size: 20px;
+    }
+    .secao-produtos>div>p {
+        font-size: 10px;
+    }
+    .porque-4cars>h2 {
+        font-size: 20px;
+    }
+    #quero-o-meu {
+        display: none;
+    }
+    #menu {
+        display: none;
+    }
+    .imgLogo {
+        height: 8vw;
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 45px;
+        right: 0px;
+        background-image: linear-gradient(to bottom, #ff5c5c, #f9d7d7);
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #menu:hover {
+        color: #969393;
+    }
+    #nav.active #menu {
+        height: 250px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        color: black;
+        font-size: 10px;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #botao {
+        display: flex;
+        align-items: center;
+    }
+    #btn-mobile {
+        display: block;
+    }
+    #btn-mobile {
+        position: absolute;
+        z-index: 1001;
+        top: 3px;
+        right: 13%;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: transparent;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    /*fim*/
+    .porque-frases {
+        margin-left: 50px;
+    }
+    .colunas {
+        display: none;
+    }
+    .container-redes-social {
+        margin: 15px 15px;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .w-row {
+        justify-content: center;
+    }
+}
