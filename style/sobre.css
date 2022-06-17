@@ -48,6 +48,8 @@ nav {
 
 /* BODY */
 
+/* ESTILIZAÇÃO PARTE 'QUEM SOMOS' DA PÁGINA */
+
 #quem-somos {
     padding: 1vw;
     margin: 1vw 1vw 3vw 1vw;
@@ -61,20 +63,28 @@ main {
     justify-items: center;
 }
 
+/* TÍTULO 'QUEM SOMOS' */
+
+#h2 {
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+/* ESTILIZAÇÃO FONTE DOS DEPOIMENTOS DOS MOTORISTAS */
+
 #p {
     font-size: 1.2vw;
     text-align: center;
 }
+
+/* TÍTULO 'DEPOIMENTOS DE CLIENTES' */
 
 #h1 {
     text-align: center;
     font-size: 2vw;
 }
 
-#h2 {
-    font-size: 1.6vw;
-    text-align: center;
-}
+/* ESTILIZAÇÃO DOS NOMES DOS MOTORISTAS */ 
 
 #nome-motorista {
     text-align: center;
@@ -83,11 +93,15 @@ main {
     font-weight: bold;
 }
 
+/* ESTILIZAÇÃO DAS DESCRIÇÕES DOS MOTORISTAS */ 
+
 #descricao-motorista {
     text-align: center;
     font-size: 1vw;
     font-weight: bold;
 }
+
+/* CONTAINER DOS DEPOIMENTOS DOS MOTORISTAS NA PÁGINA */  
 
 #container-depoimentos {
     display: grid;
@@ -95,11 +109,15 @@ main {
     grid-template-rows: 1fr 1fr;
 }
 
+/* CONTAINER DOS DEPOIMENTOS INDIVIDUALMENTE */ 
+
 #container-depoimento-individual {
     display: flex;
     align-items: center;
     padding: 3vw;
 }
+
+/* ESTILIZAÇÃO DAS IMAGENS DOS MOTORISTAS */
 
 #img-depoimento {
     margin: 1vw 3.5vw;
@@ -115,6 +133,8 @@ main {
     margin: 2vw 3vw;
     width: 9vw;
 }
+
+/* ESTILIZAÇÃO DOS CARDS COM OS DEPOIMENTOS */
 
 #depoimento {
     border: solid 1px #ff5c5c; 
