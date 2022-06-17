@@ -175,9 +175,38 @@ nav {
     justify-content: center;
 }
 
+.porque-frases {
+    padding-bottom: 20px;
+}
+
 .porque-frases>h3 {
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.sub-titulo {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#btn-saiba-mais {
+    position: static;
+    z-index: 0;
+    text-align: center;
+    background-color: #ff5c5c;
+    color: white;
+    border: 0;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    min-width: 5vw;
+    min-height: 5vw;
+    cursor: pointer;
 }
 
 .porque-frases>p {
@@ -195,6 +224,34 @@ nav {
 
 main {
     margin-bottom: 5px;
+}
+
+
+/*contatos*/
+
+.contatos {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    height: 200px;
+    text-align: center;
+}
+
+.link-contatos>a {
+    color: #ff5c5c;
+    margin: 10px 20px;
+}
+
+.icon-contatos {
+    width: 56px;
+    height: 56px;
 }
 
 
@@ -299,7 +356,7 @@ main {
 }
 
 
-/*revisponsividade*/
+/*responsividade*/
 
 @media screen and (max-width: 600px) {
     .anuncio>h1 {
@@ -400,6 +457,20 @@ main {
         top: -7px;
     }
     /*fim*/
+    .sub-titulo {
+        text-align: left;
+    }
+    .sub-titulo>h3 {
+        position: static;
+        margin-left: 100px;
+    }
+    .sub-titulo>a {
+        position: static;
+        margin-left: 40px;
+    }
+    .contatos {
+        display: none;
+    }
     .porque-frases {
         margin-left: 50px;
     }
