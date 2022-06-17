@@ -10,43 +10,24 @@
 </head>
 
 <body>
-    <!-- <header>
-        <nav>
-            <div>
-                <a href="index.html"> <img class="imgLogo" src="img/logo-nav.png" alt="Ícone 4Cars"> </a>
-            </div>
-            <div>
-                <a href="index.html">Home</a>
-                <a href="produtos.html">Planos</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="ajuda.html">Ajuda</a>
-                <a href="contato.html">Contato</a>
-            </div>
-            <div>
-                <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
-            </div>
-        </nav>
-    </header> -->
-    <header>
-
-        <nav class="menu">
+    <header id="header">
+        <nav id="nav">
             <div>
                 <a href="index.html"> <img class="imgLogo" src="img/logo-nav.png" alt="Ícone 4CARS"> </a>
             </div>
-
-            <div>
+            <div id="menu">
                 <a href="index.html" id="a">Home</a>
                 <a href="produtos.html" id="a">Planos</a>
                 <a href="sobre.html" id="a">Sobre</a>
                 <a href="ajuda.html" id="a">Ajuda</a>
                 <a href="contato.html" id="a">Contato</a>
             </div>
-
-            <div>
-                <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
+            <div id="botao">
+                <button id="btn-mobile">Menu</button>
+                <span id="hamburger"></span>
             </div>
+            <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
         </nav>
-
     </header>
     <main class="fundoContato">
         <div>
@@ -70,7 +51,6 @@
         </form>
     </main>
     <footer class="footer-v1">
-
         <div class="colunas">
             <a href="/" class="logo-footer"><img src="img/logo-footer.png" alt="Logo da 4CARS" /></a>
             <div class="col-1 lista-footer">
@@ -130,77 +110,7 @@
             </div>
         </div>
     </footer>
-    <!-- <footer class="footer-v1">
-        <div class="colunas">
-            <a href="/" class="logo-footer"><img src="img/logo-footer.png" alt="Logo da 4Cars" /></a>
-            <div class="col-1 lista-footer">
-                <h3>INSTITUCIONAL</h3>
-                <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-2 lista-footer">
-                <h3>NEGÓCIO</h3>
-                <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-3 lista-footer">
-                <h3>PARA VOCÊ</h3>
-                <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="container-redes-social">
-            <div class="redes-sociais">Nos siga nas <strong>redes sociais</strong>!</div>
-            <div class="social-icons-small">
-                <a href="https://facebook.com" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5ef206816da7037ec7300637_SM-fb.svg" alt="Icone Facebook" class="social-icon-small" /></a>
-                <a href="https://www.youtube.com" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5ef206ef45e8df86d6629ca6_SM-yt.svg" alt="Icone Youtube" class="social-icon-small" /></a>
-                <a href="https://instagram.com" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5ef206caed9bf4f1f2207973_SM-ig.svg" alt="Icone Instagram" class="social-icon-small" /></a>
-                <a href="https://www.linkedin.com" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5ef20701405601d60ddfb924_SM-link.svg" alt="Icone LinkedIn" class="social-icon-small" /></a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="w-row">
-                <div class="column w-col w-col-4">
-                    <div class="texto-icones"><strong>© 2022 4Cars Tecnologia Ltda.<br /></strong>Av. das Nações Unidas, 19707 - Jardim Promissão - São Paulo, SP<br />Av. Venâncio Aires, 133 - Azenha - Porto Alegre - RS
-                    </div>
-                </div>
-                <div class="icone-app">
-                    <strong>Baixe nosso App!.<br /></strong>
-                    <a href="https://download-app-android" target="_blank" class="link-block-3 googleplay w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5d9cbcaaa04de948547c37be_badge-google-play-dark.svg" width="118" alt="" class="image-2 googleplay" /></a>
-                    <a href="https://download-app-ios" target="_blank" class="link-block-3 googleplay w-inline-block"><img src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/60b1255305d4669993929933_apple-store.svg" alt="" class="image-2 googleplay" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer> -->
-    <!-- <p> 4CARS &copy; 2022</p> -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
