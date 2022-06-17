@@ -55,10 +55,14 @@ main {
     align-items: center;
 }
 
+/* IAMGEM DE 3 CARROS POPULARES NO INÍCIO DA PÁGINA */
+
 #img-carros {
     width: 55vw;
     margin-bottom: 5vw;
 }
+
+/* TÍTULO 'PERGUNTAS FREQUENTES' */
 
 #h1 {
     font-size: 3vw;
@@ -67,6 +71,8 @@ main {
     color: #ff5c5c;
 }
 
+/* TÍTULO 'COMO PODEMOS AJUDAR?' */
+
 #h2 {
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,16 +80,22 @@ main {
     margin-bottom: 2vw;
 }
 
+/* TÍTULOS PRINCIPAIS DOS CARDS */
+
 #h3 {
     text-align: center;
     color: #ff5c5c;
     font-size: 2vw;
 }
 
+/* PERGUNTAS E RESPOSTAS DOS CARDS */
+
 #p {
     text-align: center;
     font-size: 1.2vw;
 }
+
+/* ESTILIZAÇÃO DOS CARDS */
 
 .cards-faq {
     border: solid 2px #ff5c5c;
@@ -92,6 +104,7 @@ main {
     
 }
 
+/* CONTAINER DOS CARDS DAS PERGUNTAS E RESPOSTAS NA PÁGINA */ 
 
 #container-faq {
     display: flex;
@@ -101,6 +114,8 @@ main {
 }
 
 /* BODY */
+
+
 
 /* FOOTER */
 /*Footer*/
