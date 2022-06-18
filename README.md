@@ -41,7 +41,7 @@ A página da *4CARS* apresenta nosso projeto de Landing Page, seguindo os crité
 📁
 ## Acesso ao projeto
 
-http://male-visitor.surge.sh/
+loose-run.surge.sh
 
 🛠️
 ## Tecnologias utilizadas
