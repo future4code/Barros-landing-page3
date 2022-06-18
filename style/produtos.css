@@ -4,8 +4,7 @@
     text-decoration: none;
 }
 
-
-/*header*/
+/*HEADER*/
 
 .imgLogo {
     height: 4vw;
@@ -46,49 +45,7 @@ nav {
     background-color: #e99292;
 }
 
-
-/* .imgLogo {
-    height: 4vw;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 3px #ff5c5c;
-    box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
-    margin-bottom: 3vw;
-    flex-wrap: wrap;
-}
-
-a {
-    padding: 2vw;
-    font-size: 1.5vw;
-    font-family: Arial;
-    text-decoration: none;
-    color: #ff5c5c;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #e99292;
-    text-decoration: double;
-}
-
-#quero-o-meu {
-    color: white;
-    background-color: #ff5c5c;    
-    font-family: 'Arial';
-    font-size: 1.5vw;
-    
-}
-
-#quero-o-meu:hover {
-    background-color: #e99292;
-} */
-
-
-/* Giovana*/
+/* MAIN */
 
 button {
     background-color: #ff5c5c;
@@ -99,6 +56,7 @@ button {
     font-family: arial;
     font-weight: bolder;
     font-size: large;
+    cursor: pointer;
 }
 
 button:hover {
@@ -110,16 +68,19 @@ button:hover {
 }
 
 .texto {
-    align-self: center;
     font-size: x-large;
-    font-family: arial;
     font-weight: bolder;
-    padding: 2vw;
+    padding: 1vw;
     color: #ff5c5c;
+}
+
+.textoPlanos {
+    display: flex;
 }
 
 .divProdutos {
     display: flex;
+
 }
 
 section {
@@ -127,6 +88,7 @@ section {
     grid-template-columns: 1fr 3fr 1fr 3fr;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-left: 1vw;
 }
 
@@ -138,9 +100,6 @@ section {
     padding: 2vw;
 }
 
-h3Main {
-    margin-right: 20px;
-}
 
 table {
     width: 1000px;
@@ -148,14 +107,15 @@ table {
     font-size: large;
 }
 
-p {
+.textInfo {
     text-align: center;
     align-items: center;
     color: #ff5c5c;
+    margin-bottom: 2vw;
 }
 
 
-/*Byron footer*/
+/* FOOTER */
 
 .footer-v1 {
     box-shadow: 1vw 1vw 1vw 1vw #ff5c5c;
@@ -251,67 +211,199 @@ p {
     display: inline-flexbox;
 }
 
-
-/* .footer-v1 {
-    border-top: #ddd solid 1px;
-    margin-top: 10vw;
+/* ESCONDER BOTÃO*/
+#btn-mobile {
+    display: none;
 }
 
-.colunas {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    color: #ff5c5c;
-    box-shadow: #ddd;
-}
+/* RESPONSIVIDADE */
 
-.col-1 .lista-footer,
-.col-2 .lista-footer,
-.col-3 .lista-footer {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5vw;
-}
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .porque-frases {
+        margin-left: 50px;
+    }
 
-.lista-foote-link {
-    color: black;
-}
+    .colunas {
+        display: none;
+    }
 
-.container-redes-social {
-    display: block;
-    text-align: center;
-}
+    .container-redes-social {
+        margin: 15px 15px;
+    }
 
-.social-icon-small {
-    width: 2vw;
-    height: 2vw;
-    padding: 5px;
-}
+    .footer-bottom {
+        text-align: center;
+    }
 
-.social-icons-small {
-    max-width: 100%;
-    display: inline-flexbox;
-}
+    .w-row {
+        justify-content: center;
+    }
 
-.w-row {
-    display: flex;
-    justify-content: space-between;
-}
+    .divProdutos {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-.icone-app {
-    text-align: center;
-}
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 1vw;
+    }
 
-.texto-icones {
-    font-size: 11px;
-    line-height: 18px;
-    color: #a9b0be;
-    margin-left: 30px;
-    margin-right: 30px;
-}
+    .preco {
+        display: flex;
+        font-size: small;
+    }
 
-.w-inline-block {
-    max-width: 100%;
-    display: inline-flexbox;
-} */
+    .texto {
+        display: flex;
+        font-size: small;
+    }
+
+    .textoPlanos {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: small;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+
+    .banner {
+        width: 70vw;
+    }
+
+    .buttonQuero {
+        width: 25vw;
+        height: 10vw;
+        font-size: xx-small;
+        align-items: center;
+    }
+
+    .textInfo {
+        font-size: x-small;
+    }
+
+    @media screen and (max-width: 600px) {
+
+        #quero-o-meu {
+            display: none;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        .imgLogo {
+            height: 8vw;
+        }
+
+        #menu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 100%;
+            top: 45px;
+            right: 0px;
+            background-image: linear-gradient(to bottom, #ff5c5c, #f9d7d7);
+            transition: 0.6s;
+            z-index: 1000;
+            height: 0px;
+            visibility: hidden;
+            overflow-y: hidden;
+        }
+
+        #menu:hover {
+            color: #969393;
+        }
+
+        #nav.active #menu {
+            height: 250px;
+            visibility: visible;
+            overflow-y: auto;
+        }
+
+        #menu a {
+            color: black;
+            font-size: 10px;
+            padding: 1rem 0;
+            margin: 0 1rem;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        }
+
+        #botao {
+            display: flex;
+            align-items: center;
+        }
+
+        #btn-mobile {
+            display: block;
+        }
+
+        #btn-mobile {
+            position: absolute;
+            z-index: 1001;
+            top: 3px;
+            right: 13%;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            background: none;
+            cursor: pointer;
+            color: transparent;
+        }
+
+        #hamburger {
+            border-top: 2px solid;
+            width: 20px;
+        }
+
+        #hamburger::after,
+        #hamburger::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: currentColor;
+            margin-top: 5px;
+            transition: 0.3s;
+            position: relative;
+        }
+
+        #nav.active #hamburger {
+            border-top-color: transparent;
+        }
+
+        #nav.active #hamburger::before {
+            transform: rotate(135deg);
+        }
+
+        #nav.active #hamburger::after {
+            transform: rotate(-135deg);
+            top: -7px;
+        }
+
+        .porque-frases {
+            margin-left: 50px;
+        }
+
+        .colunas {
+            display: none;
+        }
+
+        .container-redes-social {
+            margin: 15px 15px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+        }
+
+        .w-row {
+            justify-content: center;
+        }
+    }
+}
