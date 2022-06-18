@@ -6,22 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4CARS</title>
-    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="style/contato.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div> <a href="index.html"> <img class="imgLogo" src="img/logo-nav.png" alt="Ícone 4Cars"> </a> </div>
-                <div>
-                    <a href="index.html">Home</a>
-                    <a href="produtos.html">Planos</a>
-                    <a href="sobre.html">Sobre</a>
-                    <a href="ajuda.html">Ajuda</a>
-                    <a href="contato.html">Contato</a>
-                </div>
+    <header id="header">
+        <nav id="nav">
             <div>
-                <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
+                <a href="index.html"> <img class="imgLogo" src="img/logo-nav.png" alt="Ícone 4CARS"> </a>
             </div>
+            <div id="menu">
+                <a href="index.html" id="a">Home</a>
+                <a href="produtos.html" id="a">Planos</a>
+                <a href="sobre.html" id="a">Sobre</a>
+                <a href="ajuda.html" id="a">Ajuda</a>
+                <a href="contato.html" id="a">Contato</a>
+            </div>
+            <div id="botao">
+                <button id="btn-mobile">Menu</button>
+                <span id="hamburger"></span>
+            </div>
+            <a id="quero-o-meu" href="produtos.html">Quero o meu!</a>
         </nav>
     </header>
     <main class="fundoContato">
@@ -33,7 +38,7 @@
                 <label class="textInput">NOME</label>
                 <input type="text" name="nome" id="nome">
             </div>
-               <br>
+            <br>
             <div>
                 <label class="textInput">EMAIL</label>
                 <input type="email" name="email" id="email">
@@ -47,46 +52,44 @@
     </main>
     <footer class="footer-v1">
         <div class="colunas">
-            <a href="/" class="logo-footer"><img src="img/logo-footer.png" alt="Logo da 4Cars" /></a>
+            <a href="/" class="logo-footer"><img src="img/logo-footer.png" alt="Logo da 4CARS" /></a>
             <div class="col-1 lista-footer">
-                <h3 class="h3-lista">INSTITUCIONAL</h3>
+                <h3>INSTITUCIONAL</h3>
                 <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
+                    <li class="lista-footer"><a href="sobre.html" target="_blank" class="lista-foote-link">Sobre a
+                            4CARS</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
+                    <li class="lista-footer"><a href="ajuda.html" target="_blank" class="lista-foote-link">Relação com
+                            Clientes</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
+                    <li class="lista-footer"><a href="ajuda.html" target="_blank" class="lista-foote-link">Sala de
+                            Imprensa</a>
                     </li>
                 </ul>
             </div>
             <div class="col-2 lista-footer">
-                <h3 class="h3-lista">NEGÓCIO</h3>
+                <h3>NEGÓCIOS</h3>
                 <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
+                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Seguradoras</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
+                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Seja um franqueado</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
+                    <li class="lista-footer"><a href="contato.html" target="_blank" class="lista-foote-link">Trabalhe
+                            Conosco</a>
                     </li>
                 </ul>
             </div>
             <div class="col-3 lista-footer">
-                <h3 class="h3-lista">PARA VOCÊ</h3>
+                <h3>PARA VOCÊ</h3>
                 <ul>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sobre a 4Cars</a>
+                    <li class="lista-footer"><a href="produtos.html" target="_blank" class="lista-foote-link">Produtos e
+                            serviços</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Relação com
-                            Investidor</a>
+                    <li class="lista-footer"><a href="produtos.html" target="_blank"
+                            class="lista-foote-link">Fidelidade</a>
                     </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Sala de Imprensa</a>
-                    </li>
-                    <li class="lista-footer"><a href="/" target="_blank" class="lista-foote-link">Trabalhe Conosco</a>
+                    <li class="lista-footer"><a href="produtos.html" target="_blank"
+                            class="lista-foote-link">Cadastre-se</a>
                     </li>
                 </ul>
             </div>
@@ -110,19 +113,17 @@
         </div>
         <div class="footer-bottom">
             <div class="w-row">
-                <div class="column w-col w-col-4">
-                    <div class="texto-icones"><strong>© 2022 4Cars Tecnologia Ltda.<br /></strong>Av. das Nações Unidas,
+                <div class="marca-registrada">
+                    <div class="texto-icones"><strong>© 2022 4CARS Tecnologia Ltda.<br /></strong>Av. das Nações Unidas,
                         19707 - Jardim Promissão - São Paulo, SP<br />Av. Venâncio Aires, 133 - Azenha - Porto Alegre -
                         RS</div>
                 </div>
                 <div class="icone-app">
-                    <strong>Baixe nosso App!.<br /></strong>
-                    <a href="https://download-app-android" target="_blank"
-                        class="link-block-3 googleplay w-inline-block"><img
+                    <p> Baixe nosso<strong> App</strong>!</p>
+                    <a href="https://play.google.com/store/apps" target="_blank" class="googleplay"><img
                             src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/5d9cbcaaa04de948547c37be_badge-google-play-dark.svg"
                             width="118" alt="" class="image-2 googleplay" /></a>
-                    <a href="https://download-app-ios" target="_blank"
-                        class="link-block-3 googleplay w-inline-block"><img
+                    <a href="https://www.apple.com/br/app-store" target="_blank" class="googleplay"><img
                             src="https://assets-global.website-files.com/5d9cbcaaa04de92e607c3696/60b1255305d4669993929933_apple-store.svg"
                             alt="" class="image-2 googleplay" />
                     </a>
@@ -130,7 +131,7 @@
             </div>
         </div>
     </footer>
-    <p class="h3-lista"> 4CARS &copy; 2022</p>
+    <script src="./script.js"></script>
 </body>
 
 </html>
