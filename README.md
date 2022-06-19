@@ -41,7 +41,7 @@ A página da *4CARS* apresenta nosso projeto de Landing Page, seguindo os crité
 📁
 ## Acesso ao projeto
 
-loose-run.surge.sh
+clean-expansion.surge.sh
 
 🛠️
 ## Tecnologias utilizadas
