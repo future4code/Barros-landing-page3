@@ -235,8 +235,18 @@ table {
         justify-content: center;
     }
     .divProdutos {
+    
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 1vw;
     }
     .preco {
         display: flex;
@@ -250,7 +260,8 @@ table {
         display: flex;
         flex-wrap: wrap;
         font-size: small;
-        margin-top: 5vw;
+     
+        margin-bottom: 5vw;
         
     }
     .buttonQuero {
